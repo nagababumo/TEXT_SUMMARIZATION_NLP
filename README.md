@@ -14,6 +14,10 @@ LIBRARIES USED:
          
          4.re(regular expression)
          
+         
+link to (glove.6b.100.txt) file : https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt
+
+         
 steps involved (overview):
 
      1.First, the text to be summarized is split into individual sentences using the sent_tokenize() function from the nltk library. The resulting list of sentences is          cleaned and preprocessed to remove any unwanted characters, convert all characters to lowercase, and remove any stopwords using Pandas, Numpy, and nltk.
